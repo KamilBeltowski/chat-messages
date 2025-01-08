@@ -1,4 +1,4 @@
-// Tablica losowych odpowiedzi
+
 const responses = [
   "Świetnie!",
   "Kto gra główną rolę?",
@@ -11,7 +11,7 @@ const responses = [
   "Ja funduję bilety",
 ];
 
-// Funkcja dodająca wiadomość Jolanty
+
 function sendMessage() {
   const input = document.getElementById("message-input");
   const chatContent = document.getElementById("chat-content");
@@ -26,7 +26,7 @@ function sendMessage() {
   }
 }
 
-// Funkcja generująca losową odpowiedź Krzysztofa
+
 function generateRandomResponse() {
   const chatContent = document.getElementById("chat-content");
   const randomIndex = Math.floor(Math.random() * responses.length);
@@ -38,7 +38,7 @@ function generateRandomResponse() {
   chatContent.scrollTop = chatContent.scrollHeight;
 }
 
-// Przypisywanie funkcji do przycisków
+
 document.getElementById("send-button").addEventListener("click", sendMessage);
 document
   .getElementById("random-response")
