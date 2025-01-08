@@ -1,0 +1,91 @@
+/* Styl ogólny */
+body {
+  font-family: Garamond, serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+/* Baner */
+header {
+  background-color: Tomato;
+  color: white;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  margin: auto;
+}
+
+/* Główny układ */
+main {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 600px;
+}
+
+/* Chat */
+.chat {
+  width: 80%;
+  margin: 15px;
+  border: 1px solid Tomato;
+  height: 470px;
+  overflow-y: scroll;
+  padding: 15px;
+}
+
+.chat-input {
+  margin-top: 15px;
+}
+
+.chat-input input {
+  width: 500px;
+}
+
+button {
+  background-color: Tomato;
+  border: 1px solid DarkRed;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+aside {
+  width: 20%;
+  background-color: Coral;
+  padding: 10px;
+}
+
+footer {
+  background-color: Tomato;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.jolanta {
+  background-color: #eee;
+}
+
+.krzysztof {
+  background-color: #ccc;
+  justify-content: flex-end;
+}
+
+.message img {
+  border-radius: 50%;
+  margin: 0 10px;
+  width: 70px;
+  height: 70px;
+}
