@@ -1,4 +1,4 @@
-/* Styl ogólny */
+
 body {
   font-family: Garamond, serif;
   margin: 0;
@@ -8,7 +8,7 @@ body {
   background-color: #fff;
 }
 
-/* Baner */
+
 header {
   background-color: Tomato;
   color: white;
@@ -19,7 +19,7 @@ header {
   margin: auto;
 }
 
-/* Główny układ */
+
 main {
   display: flex;
   margin: auto;
@@ -27,7 +27,7 @@ main {
   height: 600px;
 }
 
-/* Chat */
+
 .chat {
   width: 80%;
   margin: 15px;
